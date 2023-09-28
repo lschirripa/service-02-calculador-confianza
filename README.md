@@ -34,9 +34,16 @@ Una vez levantado, se podra acceder al swagger de la api mediante http://127.0.0
 
 - Para mas detalle, debajo del endpoint se encuentran los Schemas, que nos van a servir para saber como se conforman nuestros objetos.
 
-- De todas formas, dejamos aca un json de ejemplo para que puedan probar. Esta comunidad solo tendra 4 incidentes y 2 usuarios.
+- De todas formas, dejamos [aca](https://github.com/lschirripa/service-02-calculador-confianza/blob/main/docs/input_example.json) un json de ejemplo para que puedan probar. Esta comunidad solo tendra 4 incidentes y 2 usuarios.
 
+### Aclaraciones:
 
+* Todas las fechas que la API necesite como entrada, deben estar en formato ISO 8601 (YYYY-MM-DDTHH-MM). Ver el ejemplo para mas claridad.
 
+* Los IDs son necesarios para poder diferenciar a los usuarios y a los distintos incidentes para poder hacer los calculos.
 
+* Se entiende como incidente similar a aquellos que tienen el mismo establecimiento y servicio afectado (hashing entre id_establecimiento + id_servicio_afectado).
 
+<br/>
+
+<strong> No duden en consultar, o mejor aun, abrir un [issue!](https://github.com/lschirripa/service-02-calculador-confianza/issues/new)😸 </strong>
