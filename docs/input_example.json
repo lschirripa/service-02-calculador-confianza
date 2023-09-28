@@ -1,0 +1,50 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "puntaje_inicial": 0
+    },
+    {
+      "id": 2,
+      "puntaje_inicial": 2
+    }
+  ],
+  "incidentes": [
+    {
+      "id": 1,
+      "id_establecimiento": "1",
+      "id_servicio_afectado": "1",
+      "fecha_de_apertura": "2018-03-14T13:00",
+      "fecha_de_cierre": "2018-03-14T13:59",
+      "id_usuario_de_apertura": "1",
+      "id_usuario_de_cierre": "2"
+    },
+    {
+      "id": 2,
+      "id_establecimiento": "1",
+      "id_servicio_afectado": "2",
+      "fecha_de_apertura": "2018-03-14T13:00",
+      "fecha_de_cierre": "2018-03-14T13:59",
+      "id_usuario_de_apertura": "1",
+      "id_usuario_de_cierre": "2"
+    },
+    {
+      "id": 3,
+      "id_establecimiento": "2",
+      "id_servicio_afectado": "1",
+      "fecha_de_apertura": "2018-03-14T13:00",
+      "fecha_de_cierre": "2018-03-14T13:59",
+      "id_usuario_de_apertura": "1",
+      "id_usuario_de_cierre": "2"
+    },
+    {
+      "id": 4,
+      "id_establecimiento": "2",
+      "id_servicio_afectado": "2",
+      "fecha_de_apertura": "2018-03-14T13:00",
+      "fecha_de_cierre": "2018-03-14T13:59",
+      "id_usuario_de_apertura": "1",
+      "id_usuario_de_cierre": "2"
+    }
+  ]
+}

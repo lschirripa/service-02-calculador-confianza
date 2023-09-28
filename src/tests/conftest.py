@@ -1,5 +1,5 @@
 import pytest
-from externalApi.models.models import Incidente, Usuario
+from models.models import Incidente, Usuario
 
 
 @pytest.fixture()

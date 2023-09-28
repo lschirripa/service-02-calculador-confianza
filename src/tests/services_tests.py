@@ -1,7 +1,5 @@
-import sys
-
-from externalApi.models.models import Comunidad
-from externalApi.services import CalculatorService
+from models.models import Comunidad
+from services.services import CalculatorService
 
 calculator_service = CalculatorService()
 
