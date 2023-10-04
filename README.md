@@ -24,7 +24,7 @@
 
     uvicorn main:app --reload
 
-Una vez levantado, se podra acceder al swagger de la api mediante http://127.0.0.1:8000.
+Una vez levantado, se podra acceder al swagger de la api mediante http://127.0.0.1:8008.
 
 ## Como usar:
 
